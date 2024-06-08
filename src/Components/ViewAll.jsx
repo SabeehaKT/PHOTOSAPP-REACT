@@ -35018,10 +35018,10 @@ const ViewAll = () => {
                                     return  <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
                                     <div class="card">
                                         <img src={value.url} class="card-img-top" alt="..."/>
+                                        <img src={value.thumbnailUrl} class="card-img-top" alt="..."/>
                                             <div class="card-body">
                                                 <h5 class="card-title">{value.albumId}</h5>
                                                 <p class="card-text">{value.id}</p>
-                                                <p class="card-text">{value.thumbnailUrl}</p>
                                                 <p class="card-text">{value.title}</p>
                                             </div>
                                     </div>
